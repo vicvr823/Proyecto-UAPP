@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".NotasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/lbl_notas"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:text="@string/txt_t1"
+                android:layout_marginLeft="170dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_porcentaje"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:layout_marginRight="90dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp">
+
+                <EditText
+                    android:id="@+id/txtNotaT1"
+                    android:layout_width="85dp"
+                    android:layout_height="57dp"
+                    android:inputType="number"
+                    android:maxLength="2" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:text="@string/txt_t2"
+                android:layout_marginLeft="170dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_porcentaje"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:layout_marginRight="90dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp">
+                <EditText
+                    android:id="@+id/txtNotaT2"
+                    android:layout_width="85dp"
+                    android:layout_height="57dp"
+                    android:maxLength="2"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:text="@string/txt_t3"
+                android:layout_marginLeft="170dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_porcentaje"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:layout_marginRight="90dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp">
+                <EditText
+                    android:id="@+id/txtNotaT3"
+                    android:layout_width="85dp"
+                    android:layout_height="57dp"
+                    android:maxLength="2"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:text="@string/txt_t4"
+                android:layout_marginLeft="170dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_porcentaje"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:layout_marginRight="90dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp">
+                <EditText
+                    android:id="@+id/txtNotaT4"
+                    android:layout_width="85dp"
+                    android:layout_height="57dp"
+                    android:maxLength="2"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:text="@string/txt_final"
+                android:layout_marginLeft="170dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_porcentajefinal"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:layout_marginRight="90dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp">
+                <EditText
+                    android:id="@+id/txtNotaFinal"
+                    android:layout_width="85dp"
+                    android:layout_height="57dp"
+                    android:maxLength="2"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="@string/txt_comentario"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="259dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtComentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:maxLength="100"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnRegistrarNota"
+                android:background="@drawable/diseno_boton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/btn_registrarnota"/>
+            <Button
+                android:id="@+id/btnCancelar"
+                android:background="@drawable/diseno_boton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/btn_menu"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

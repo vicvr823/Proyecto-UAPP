@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+
+    <!--Activity Carga-->
+    <string name="lblCarga">UAPP</string>
+
+    <!--Activity Login-->
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_clave">Clave</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_salir">Salir</string>
+    <string name="lbl_copyright">UPN - 2021</string>
+    <string name="lbl_ciclos_select">Seleccione un ciclo</string>
+
+    <!--Activity Menu-->
+    <string name="lbl_profesor">Docente: </string>
+    <string name="btn_cursos">Cursos</string>
+    <string name="btn_notas">Notas</string>
+    <string name="btn_registros">Registros</string>
+    <string name="btn_cerrarsesion">Cerrar Sesion</string>
+    <string name="btn_menu">Volver</string>
+
+    <!--Activity Cursos-->
+    <string name="txt_curso1">Curso 1</string>
+    <string name="txt_curso2">Curso 2</string>
+    <string name="txt_curso3">Curso 3</string>
+    <string name="txt_curso4">Curso 4</string>
+
+    <!--Activity Registros-->
+    <string name="lbl_registro">Registro</string>
+    <string name="txt_idciclo">ID Ciclo</string>
+    <string name="txt_idcurso">ID Curso</string>
+    <string name="txt_idalumno">ID Alumno</string>
+    <string name="btn_registrar">Registrar</string>
+
+
+    <!--Activity Notas-->
+    <string name="lbl_notas">Notas</string>
+    <string name="txt_t1">T1</string>
+    <string name="txt_t2">T2</string>
+    <string name="txt_t3">T3</string>
+    <string name="txt_t4">T4</string>
+    <string name="txt_final">EF</string>
+    <string name="txt_porcentaje">15%</string>
+    <string name="txt_porcentajefinal">40%</string>
+    <string name="txt_comentario">Comentario</string>
+    <string name="btn_registrarnota">Registrar Nota</string>
+</resources>
